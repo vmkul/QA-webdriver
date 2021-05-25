@@ -1,0 +1,22 @@
+{
+  "name": "qa-webdriver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmkul/QA-webdriver.git"
+  },
+  "author": "vmkul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmkul/QA-webdriver/issues"
+  },
+  "homepage": "https://github.com/vmkul/QA-webdriver#readme",
+  "dependencies": {
+    "selenium-webdriver": "*"
+  }
+}
