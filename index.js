@@ -1,10 +1,12 @@
-import { Builder, By, Key, until } from 'selenium-webdriver';
+import {
+  Builder, By, Key, until,
+} from 'selenium-webdriver';
 
-const testRunner = promises => new Promise(resolve => {
+const testRunner = (promises) => new Promise((resolve) => {
   let succeeded = 0;
   let failed = 0;
 
-  promises.forEach(p => {
+  promises.forEach((p) => {
     p
       .then(() => succeeded++)
       .catch(() => failed++)
